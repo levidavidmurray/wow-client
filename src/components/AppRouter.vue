@@ -10,6 +10,8 @@
       <router-link to="/media">Media</router-link>
       <router-link to="/trailer">Trailer</router-link>
     </div>
+    <i class="fab fa-reddit-alien"></i>
+    <i class="fab fa-twitter"></i>
   </div>
 </template>
 
