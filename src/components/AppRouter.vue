@@ -41,7 +41,7 @@ export default {
       justify-content: space-between;
       width: 100%;
       flex-grow: 1;
-      padding: 128px 0;
+      padding: 12vh 0;
 
       a {
         color: $text-blue;
