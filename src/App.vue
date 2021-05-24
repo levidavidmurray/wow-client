@@ -43,20 +43,23 @@ html, body {
   color: white;
   height: 100vh;
   width: 100%;
-  padding: 64px 96px;
+  padding: 64px 96px 0 96px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
 
   .split-container {
     display: flex;
     height: 100%;
+    max-width: 1700px;
 
     #nav {
-      flex-grow: 1;
+      min-width: 324px;
       max-width: 324px;
+      position: relative;
+      z-index: 1;
     }
 
-    .selected-content {
-      flex-grow: 6;
-    }
   }
 
 }

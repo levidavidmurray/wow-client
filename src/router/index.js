@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import FactionHorde from '../components/faction/FactionHorde.vue';
+import FactionAlliance from '../components/faction/FactionAlliance.vue';
 
 Vue.use(VueRouter)
 
@@ -9,6 +11,16 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/horde',
+    name: 'Horde',
+    component: FactionHorde,
+  },
+  {
+    path: '/alliance',
+    name: 'Alliance',
+    component: FactionAlliance,
   },
   {
     path: '/about',
